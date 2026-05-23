@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project presents the design and simulation of an 8-bit Charge Redistribution Successive Approximation Register (SAR) ADC using Cadence Virtuoso. The project combines analog and digital design methodologies by implementing SAR logic and DAC using Verilog HDL while integrating comparator and sample-and-hold blocks at schematic level.
+This project presents the design and simulation of an 8-bit Charge Redistribution Successive Approximation Register (SAR) ADC using Cadence Virtuoso. The project combines analog and digital design methodologies by implementing transistor-level Sample and Hold and Comparator circuits, while SAR logic and DAC were designed using Verilog HDL.
 
 ---
 
@@ -34,7 +34,7 @@ The SAR ADC architecture consists of:
 
 ## Sample and Hold Circuit
 
-The Sample and Hold circuit samples the analog input voltage and maintains a constant voltage during the conversion process.
+The Sample and Hold circuit was implemented at transistor level to sample and hold the analog input during conversion.
 
 ### Functions
 
@@ -46,7 +46,7 @@ The Sample and Hold circuit samples the analog input voltage and maintains a con
 
 ## Capacitive DAC
 
-A capacitive DAC based on charge redistribution technique was implemented for generating reference voltages during SAR conversion.
+The DAC was implemented using Verilog HDL based on charge redistribution technique.
 
 ### Features
 
@@ -58,7 +58,7 @@ A capacitive DAC based on charge redistribution technique was implemented for ge
 
 ## Comparator
 
-The comparator compares the sampled input voltage with DAC output voltage and generates decision bits for SAR logic operation.
+The comparator was implemented at transistor level for analog voltage comparison during SAR conversion.
 
 ### Functions
 
@@ -70,7 +70,7 @@ The comparator compares the sampled input voltage with DAC output voltage and ge
 
 ## SAR Logic
 
-The SAR logic was implemented using Verilog HDL to perform successive approximation from MSB to LSB.
+The SAR control logic was implemented using Verilog HDL for successive approximation operation.
 
 ### Operation
 
