@@ -149,9 +149,13 @@ The following waveforms verify correct 8-bit SAR ADC operation using charge redi
 
 ---
 
+### Block Level Diagram
+
 ![Block Level Diagram](Schematics/block_level.png)
 
 ---
+
+### Transister Level Diagram
 
 ![Transister Level Diagram](Schematics/Transister_level.png)
 
