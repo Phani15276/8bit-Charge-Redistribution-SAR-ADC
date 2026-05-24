@@ -122,7 +122,7 @@ The following waveforms verify correct 8-bit SAR ADC operation using charge redi
 
 ### Vin = 0.6 V
 
-![0.6V](simulation_results/waveforms/0p6V.png)
+![0.6V](Waveforms/0.6v.png)
 
 - Output: 10111111  
 - Decimal: 191  
@@ -132,7 +132,7 @@ The following waveforms verify correct 8-bit SAR ADC operation using charge redi
 
 ### Vin = 0.4 V
 
-![0.4V](simulation_results/waveforms/0p4V.png)
+![0.4V](Waveforms/0.4V.png)
 
 - Output: 10000000  
 - Decimal: 128  
